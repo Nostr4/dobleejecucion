@@ -8,33 +8,33 @@ import java.lang.reflect.Method;
 public class DibujoPolares {
     private static Color devuelveRadianes(double radio, double angulo) {
 
-        if (angulo <= 0.25 || angulo >= 0.75) {
+        if (angulo <= 0.50 || angulo >= 0.50) {
             if (radio < 0.1) {
-                return new Color(147, 147, 147);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.1 && radio < 0.2) {
-                return new Color(136, 24, 246);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.2 && radio < 0.3) {
-                return new Color(21, 22, 255);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.3 && radio < 0.4) {
-                return new Color(118, 238, 255);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.4 && radio < 0.5) {
-                return new Color(36, 255, 102);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.5 && radio < 0.6) {
-                return new Color(253, 255, 57);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.6 && radio < 0.7) {
-                return new Color(255, 135, 30);
+                return new Color(255, 21, 34);
 
             }
             if (radio > 0.7 && radio < 0.8) {
@@ -43,7 +43,7 @@ public class DibujoPolares {
             }
 
         }
-        return new Color(147, 147, 147);
+        return new Color(255, 255, 255);
     }
 
 
